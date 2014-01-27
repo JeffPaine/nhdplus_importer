@@ -14,17 +14,17 @@ $ cd nhdplus_importer/
 
 ### Download all snapshots
 ```bash
-make download_snapshots
+$ make download_snapshots
 ```
 
 ### Decompress all snapshots
 ```bash
-make decompress_flowlines
+$ make decompress_flowlines
 ```
 
 ### Import all the flowlines into PostgreSQL
 
 This assumes the existence of a database names `nhd`
 ```bash
-make import_flowlines
+$ make import_flowlines
 ```
